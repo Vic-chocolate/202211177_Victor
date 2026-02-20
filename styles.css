@@ -1,0 +1,77 @@
+*body{
+    background-color: black;
+}
+
+h2{
+    margin-top: 100px;
+}
+
+.image1, .image2, .image3 {
+    margin: 20px;
+    /* margin-left: 250px;
+    margin-right: 250px; */
+    width: 200px;
+    height: 200px;
+}
+
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: black;
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    margin-left: 450px;
+    float: left;
+
+}
+
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: black;
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    margin-left: 10px;
+    float: left;
+}
+
+.card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: black;
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    margin-left: 10px;
+    float: left;
+}
+
+table {
+    margin-top: 100px;
+    margin-left: 450px;
+    border-collapse: collapse;
+}
+
+.card1 ol{
+    margin-top: 180px;
+}
+
+.card2 ul{
+    margin-top: 180px;
+}
+
+.card3 p{
+    margin-top: 180px;
+}

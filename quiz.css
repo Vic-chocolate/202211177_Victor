@@ -1,0 +1,51 @@
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1.3rem;
+}
+header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+header > nav > ul > li > a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1rem;
+    color: blueviolet;
+}
+
+.hero {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    max-width: 100%;
+    padding: 0 20px;
+}
+.img-container > img {
+    max-width: 100%;
+}
+.list-services {
+    padding: 0 20px;
+}
+.income-section {
+    margin-top: 2rem;
+}
+.income-section > table,
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
